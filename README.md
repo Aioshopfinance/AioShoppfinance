@@ -1,4 +1,5 @@
-# AioShoppfinance<!DOCTYPE html>
+# AioShoppfinance
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -6,42 +7,42 @@
     <title>AioShopFinance</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            color: #333;
+            background-color: #1a1a1a; /* Fundo preto */
+            color: white; /* Texto branco */
+            font-family: 'Orbitron', sans-serif; /* Fonte futurista */
         }
+
         header {
-            background-color: #2a3f54;
-            color: white;
-            padding: 20px 0;
+            background-color: #00FFFF; /* Cor neon */
+            padding: 20px;
             text-align: center;
         }
-        nav {
-            text-align: center;
-            margin: 20px 0;
-        }
+
         nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #2a3f54;
-            font-weight: bold;
+            color: white;
         }
+
+        nav a:hover {
+            color: #FF00FF; /* Efeito hover neon */
+        }
+
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
         }
+
         .section {
             margin: 20px 0;
             padding: 20px;
             background: white;
             border-radius: 8px;
         }
+
         .section h2 {
             color: #2a3f54;
         }
+
         .footer {
             background-color: #2a3f54;
             color: white;
@@ -51,11 +52,35 @@
             bottom: 0;
             width: 100%;
         }
+
         .product {
             border: 1px solid #ddd;
             padding: 15px;
             border-radius: 8px;
             margin-bottom: 20px;
+        }
+
+        .services-links {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .service-button {
+            padding: 15px 30px;
+            background-color: #00FFFF;
+            color: #1a1a1a;
+            border-radius: 10px;
+            text-decoration: none;
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .service-button:hover {
+            background-color: #FF00FF;
+            color: white;
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -93,6 +118,15 @@
                 <p>Acompanhe o desempenho dos mercados financeiros em tempo real.</p>
             </div>
         </section>
+        <section id="financial-services" class="section">
+            <h2>Serviços Financeiros</h2>
+            <div class="services-links">
+                <a href="https://blindex.io" target="_blank" class="service-button">Blindex</a>
+                <a href="https://mercadobitcoin.com.br" target="_blank" class="service-button">Mercado Bitcoin</a>
+                <a href="https://www.mercadopago.com.br" target="_blank" class="service-button">Mercado Pago</a>
+            </div>
+        </section>
+
         <section id="products" class="section">
             <h2>Infoprodutos Financeiros</h2>
             <div class="product">
@@ -113,3 +147,4 @@
     </footer>
 </body>
 </html>
+
