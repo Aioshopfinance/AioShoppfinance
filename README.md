@@ -1,4 +1,5 @@
 # AioShoppfinance<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -19,6 +20,10 @@
 
         nav a {
             color: white;
+            font-size: 18px; /* Aumentar o tamanho do texto do menu */
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
         }
 
         nav a:hover {
@@ -87,10 +92,13 @@
     <header>
         <h1>AioShopFinance</h1>
     </header>
+
+    <!-- Menu de navegação atualizado -->
     <nav>
-        <a href="#investments">Investimentos</a>
-        <a href="#extra-income">Renda Extra</a>
-        <a href="#tools">Ferramentas</a>
+        <a href="index.html">Página Inicial</a>
+        <a href="investimentos.html">Investimentos</a>
+        <a href="renda-extra.html">Renda Extra</a>
+        <a href="ferramentas.html">Ferramentas</a>
         <a href="#products">Infoprodutos</a>
         <a href="blog.html">Blog</a>
     </nav>
@@ -98,37 +106,17 @@
     <div class="container">
         <section id="investments" class="section">
             <h2>Investimentos</h2>
-            <p>A importância de investir é fundamental para garantir um futuro financeiro estável e seguro. Invista com sabedoria e colha os frutos.</p>
+            <p><a href="investimentos.html">Saiba mais sobre como investir com sabedoria.</a></p>
         </section>
 
         <section id="extra-income" class="section">
             <h2>Renda Extra</h2>
-            <p>Descubra diversas maneiras de criar uma renda extra e melhorar sua qualidade de vida financeira.</p>
+            <p><a href="renda-extra.html">Descubra diversas maneiras de criar uma renda extra.</a></p>
         </section>
 
         <section id="tools" class="section">
             <h2>Ferramentas</h2>
-            <div>
-                <h3>Calculadora de Investimentos</h3>
-                <p>Utilize nossa calculadora para simular seus retornos de investimento.</p>
-            </div>
-            <div>
-                <h3>Simulador de Renda Extra</h3>
-                <p>Explore diversas formas de gerar renda extra com nosso simulador interativo.</p>
-            </div>
-            <div>
-                <h3>Monitor de Mercado</h3>
-                <p>Acompanhe o desempenho dos mercados financeiros em tempo real.</p>
-            </div>
-        </section>
-
-        <section id="financial-services" class="section">
-            <h2>Serviços Financeiros</h2>
-            <div class="services-links">
-                <a href="https://blindex.io" target="_blank" class="service-button">Blindex</a>
-                <a href="https://mercadobitcoin.com.br" target="_blank" class="service-button">Mercado Bitcoin</a>
-                <a href="https://www.mercadopago.com.br" target="_blank" class="service-button">Mercado Pago</a>
-            </div>
+            <p><a href="ferramentas.html">Explore as ferramentas de cálculo e monitoramento.</a></p>
         </section>
 
         <section id="products" class="section">
@@ -161,3 +149,4 @@
     </footer>
 </body>
 </html>
+
