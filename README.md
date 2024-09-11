@@ -88,21 +88,25 @@
     <header>
         <h1>AioShopFinance</h1>
     </header>
+
     <nav>
         <a href="#investments">Investimentos</a>
         <a href="#extra-income">Renda Extra</a>
         <a href="#tools">Ferramentas</a>
         <a href="#products">Infoprodutos</a>
     </nav>
+
     <div class="container">
         <section id="investments" class="section">
             <h2>Investimentos</h2>
             <p>A importância de investir é fundamental para garantir um futuro financeiro estável e seguro. Invista com sabedoria e colha os frutos.</p>
         </section>
+
         <section id="extra-income" class="section">
             <h2>Renda Extra</h2>
-            <p>Descubra diversas formas de criar uma renda extra e melhorar sua qualidade de vida financeira.</p>
+            <p>Descubra diversas maneiras de criar uma renda extra e melhorar sua qualidade de vida financeira.</p>
         </section>
+
         <section id="tools" class="section">
             <h2>Ferramentas</h2>
             <div>
@@ -118,6 +122,7 @@
                 <p>Acompanhe o desempenho dos mercados financeiros em tempo real.</p>
             </div>
         </section>
+
         <section id="financial-services" class="section">
             <h2>Serviços Financeiros</h2>
             <div class="services-links">
@@ -130,21 +135,32 @@
         <section id="products" class="section">
             <h2>Infoprodutos Financeiros</h2>
             <div class="product">
-                <h3>Ebooks</h3>
-                <p>A Importância de Investir</p>
-                <p>Mudando Sua Mentalidade para Investimentos</p>
+                <h3><a href="ebook-investir.html">A Importância de Investir</a></h3>
+                <p>Aprenda os princípios básicos e avançados para fazer investimentos de forma segura e lucrativa.</p>
             </div>
             <div class="product">
-                <h3>Audiobooks</h3>
-                <p>Usando Sua Intuição para Investir</p>
-                <p>Aproveitando as Oportunidades de Investimento</p>
-                <p>Criando Sua Própria Renda Extra</p>
+                <h3><a href="ebook-mentalidade-investimentos.html">Mudando Sua Mentalidade para Investimentos</a></h3>
+                <p>Entenda como mudar sua mentalidade para obter sucesso nos investimentos de longo prazo.</p>
+            </div>
+            <div class="product">
+                <h3><a href="audiobook-intuicao-investir.html">Usando Sua Intuição para Investir</a></h3>
+                <p>Descubra como utilizar sua intuição como ferramenta para tomar decisões mais rápidas e precisas no mercado financeiro.</p>
+            </div>
+            <div class="product">
+                <h3><a href="audiobook-oportunidades-investimento.html">Aproveitando as Oportunidades de Investimento</a></h3>
+                <p>Aprenda a identificar e aproveitar as melhores oportunidades de investimento no mercado.</p>
+            </div>
+            <div class="product">
+                <h3><a href="audiobook-renda-extra.html">Criando Sua Própria Renda Extra</a></h3>
+                <p>Saiba como criar fontes de renda extra para garantir maior estabilidade financeira.</p>
             </div>
         </section>
     </div>
+
     <footer class="footer">
         <p>&copy; 2024 AioShopFinance. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
+
 
