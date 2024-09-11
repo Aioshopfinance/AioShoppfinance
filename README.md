@@ -102,6 +102,13 @@
         <a href="#products">Infoprodutos</a>
         <a href="blog.html">Blog</a>
     </nav>
+<nav>
+    <a href="#investments">Investimentos</a>
+    <a href="#extra-income">Renda Extra</a>
+    <a href="#tools">Ferramentas</a>
+    <a href="infoprodutos.html">Infoprodutos</a> <!-- Link atualizado para a nova página -->
+    <a href="blog.html">Blog</a>
+</nav>
 
     <div class="container">
         <section id="investments" class="section">
