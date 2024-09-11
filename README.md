@@ -1,5 +1,4 @@
-# AioShoppfinance
-<!DOCTYPE html>
+# AioShoppfinance<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +16,6 @@
             padding: 20px;
             text-align: center;
         }
-
 
         nav a {
             color: white;
@@ -89,19 +87,12 @@
     <header>
         <h1>AioShopFinance</h1>
     </header>
-<nav>
-    <a href="#investments">Investimentos</a>
-    <a href="#extra-income">Renda Extra</a>
-    <a href="#tools">Ferramentas</a>
-    <a href="#products">Infoprodutos</a>
-    <a href="blog.html">Blog</a> <!-- Adiciona o link para o blog -->
-</nav>
-
     <nav>
         <a href="#investments">Investimentos</a>
         <a href="#extra-income">Renda Extra</a>
         <a href="#tools">Ferramentas</a>
         <a href="#products">Infoprodutos</a>
+        <a href="blog.html">Blog</a>
     </nav>
 
     <div class="container">
@@ -170,5 +161,3 @@
     </footer>
 </body>
 </html>
-
-
